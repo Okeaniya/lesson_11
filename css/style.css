@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+[class*="__conteiner"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.car{
+	min-height: 100vh;
+	background: url("../img/fon.jpg") 0 0 / cover no-repeat;
+	position: relative;
+}
+.car__shadow{
+	position: absolute;
+	top: 560px;
+	right: 359px;
+}
+.car__part--bottom{
+	position: absolute;
+	top: 560px ;
+	right: 620px;
+}
+.car__sh-front{
+	position: absolute;
+	top: 560px;
+	right: 961px;
+}
+.car__rear-sh{
+	position: absolute;
+	top: 486px;
+	right: 390px;
+}
+.car__doors{
+	position: absolute;
+	top:430px;
+	right: 450px;
+}
+.car__trunk{
+	position: absolute;
+	top: 489px;
+	right: 388px;
+}
+.car__hood{
+	position: absolute;
+	top: 475px;
+	right: 387px;
+}
+.car__roof{
+	position: absolute;
+	top: 400px;
+	right: 398px;
+}
+.car__headlight{
+	position: absolute;
+	top: 528px;
+	right: 1086px;
+}
+.car__stop{
+	position: absolute;
+	top: 500px;
+	right: 400px;
+}
+.car__tires--front{
+	position: absolute;
+	top: 576px;
+	right: 975px;
+}
+.car__wheel--rear{
+	position: absolute;
+	top: 579px;
+	right: 488px;
+}
+.car__eagle{
+	position: absolute;
+	top: 10px;
+	left: 850px;
+}
+.car__eagle:active{
+	transform: scale(0.6) ;
+	transition: all 3s ease 0s ;
+	left: 50px;
+}
+.car__text{
+	color: rgb(5, 49, 145);
+	font-size: 30px;
+	font-weight: 700;
+	position: absolute;
+	top: 250px;
+	right: 600px;
+}
